@@ -100,7 +100,7 @@ void loop() {
   tank_percent_full = tankPercentFull();
   panel_power_switch = (panel_power_switch_reading == HIGH);
   
-  // Set max pressure if pressure setting button is pressed
+  // Set max pressure if pressure setting key is turned
   if (pressure_set_button_reading == HIGH) {
     setMaxPressure ();
   } 
